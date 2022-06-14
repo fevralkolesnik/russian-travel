@@ -1,0 +1,7 @@
+.lead__image {
+  width: 100%;
+  min-height: 615px;
+  background-image: url(../../../images/kalegin-michail-179870-unsplash.png);
+
+  margin-bottom: 8px;
+}
