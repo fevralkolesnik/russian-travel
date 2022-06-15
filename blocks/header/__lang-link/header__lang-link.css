@@ -10,10 +10,16 @@
   margin: 0;
   margin-right: 18px;
   padding: 0;
+
+  transition: opacity 1s ease-in-out;
 }
 
 .header__lang-link:active {
   text-decoration: underline;
+}
+
+.header__lang-link:hover {
+  opacity: 0.8;
 }
 
 .header__lang-link:nth-of-type(2) {

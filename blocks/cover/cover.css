@@ -27,6 +27,7 @@
   opacity: 0.3;
   position: absolute;
   background-color: #2A2C2F;
+  transition: opacity 1s ease-in-out;
 }
 
 .cover:hover::before {
