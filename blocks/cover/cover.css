@@ -4,11 +4,14 @@
   align-items: center;
   justify-content: center;
 
+  /* не получается сделать резиновым
+  max-width: 1184px; если не указывать height не работает, потому что блок равняется н контент
+  width: 100%;         padding-bottom: тоже не подходит, потому что текст внутри тогда не выравнивается*/
   width: 1184px;
   height: 740px;
   background-image: url(../../images/cover-trains.jpg);
   background-size: cover;
-  background-color: #2A2C2F;
+
   margin: 92px auto 0;
 
   position: relative;
@@ -23,9 +26,33 @@
   left: 0;
   opacity: 0.3;
   position: absolute;
+  background-color: #2A2C2F;
 }
 
 .cover:hover::before {
   background-color: #2A2C2F;
   opacity: 0.8;
 }
+
+@media screen and (max-width: 1280px) {
+  .cover {
+    width: 1024px;
+    height: 640px;
+
+  }
+}
+@media screen and (max-width: 1024px) {
+  .cover {
+    width: 768px;
+    height: 480px;
+    margin-top: 90px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .cover {
+    width: 320px;
+    height: 200px;
+    margin-top: 66px;
+  }
+}
+
