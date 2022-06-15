@@ -3,6 +3,28 @@
   grid-template-columns: 1fr 1fr;
   grid-template-rows: repeat(2, auto);
   grid-row-gap: 48px;
-  grid-column-gap: 32px;
+  grid-column-gap: 40px;
   margin-top: 80px;
+}
+
+@media screen and (max-width: 1280px) {
+  .place {
+    grid-column-gap: 32px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .place {
+    grid-column-gap: 28px;
+    margin-top: 73px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .place {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, auto);
+
+    grid-row-gap: 32px;
+
+    margin-top: 50px;
+  }
 }
