@@ -4,7 +4,7 @@
   margin-right: 18px;
 }
 
-@media screen and (max-width: 830px) {
+@media screen and (max-width: 767px) {
   .footer__nav {
     margin-right: 0;
     margin-bottom: 32px;
