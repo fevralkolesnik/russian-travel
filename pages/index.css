@@ -19,7 +19,7 @@
 @import url(../blocks/intro/__title/intro__title.css);
 @import url(../blocks/intro/__text/intro__text.css);
 @import url(../blocks/intro/__list/intro__list.css);
-@import url(../blocks/intro/__list/_counts/intro__list_counts.css);
+@import url(../blocks/intro/__counts/intro__counts.css);
 
 @import url(../blocks/grid/grid.css);
 @import url(../blocks/grid/__photo/grid__photo.css);
