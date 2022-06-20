@@ -4,15 +4,10 @@
   align-items: center;
   justify-content: center;
 
-  /* не получается сделать резиновым
-  max-width: 1184px; если не указывать height не работает, потому что блок равняется н контент
-  width: 100%;         padding-bottom: тоже не подходит, потому что текст внутри тогда не выравнивается*/
   width: 1184px;
   height: 740px;
   background-image: url(../../images/cover-trains.jpg);
   background-size: cover;
-
-  margin: 92px auto 0;
 
   position: relative;
 }
@@ -45,21 +40,18 @@
   .cover {
     width: 768px;
     height: 480px;
-    margin-top: 90px;
   }
 }
 @media screen and (max-width: 767px) {
   .cover {
     width: 425px;
     height: 265px;
-    margin-top: 66px;
   }
 }
 @media screen and (max-width: 424px) {
   .cover {
     width: 320px;
     height: 200px;
-    margin-top: 66px;
   }
 }
 

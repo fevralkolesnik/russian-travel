@@ -1,25 +1,25 @@
 .places {
   max-width: 984px;
-  margin: 0 auto 0;
-
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  grid-row-gap: 80px;
 }
 
 @media screen and (max-width: 1080px) {
   .places {
-    margin: 0 48px 0;
-    width: (100% - 48px - 48px); /*вычитаем внешние отступы*/
+    width: calc(100% - 48px - 48px);
   }
 }
 @media screen and (max-width: 1023px) {
   .places {
-    margin: 0 24px 0;
-    width: (100% - 24px - 24px);
+    width: calc(100% - 24px - 24px);
+    grid-row-gap: 73px;
   }
 }
 @media screen and (max-width: 767px) {
   .places {
     width: 100%;
-    margin: 0;
-    padding: 0;
+    grid-row-gap: 50px;
   }
 }

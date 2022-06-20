@@ -1,8 +1,8 @@
 .grid {
+  max-width: 1184px;
   display: grid;
   grid-gap: 16px;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  margin: 92px 48px 12px;
 }
 
 @media screen and (max-width: 1279px) {
@@ -13,14 +13,10 @@
 @media screen and (max-width: 1023px) {
   .grid {
     grid-gap: 16px;
-
-    margin: 88px 24px 15px;
   }
 }
 @media screen and (max-width: 767px) {
   .grid {
     grid-gap: 12px;
-
-    margin: 64px 16px 14px;
   }
 }
